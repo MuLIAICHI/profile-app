@@ -35,3 +35,7 @@ jobs:
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./app
+        publish_branch: gh-pages
+        cname: profile.mhl2.dev
+        commit_message: "Deploy to GitHub Pages"
+
