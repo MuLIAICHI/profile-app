@@ -30,12 +30,6 @@ jobs:
         push: true
         tags: mhl2/profile-app:latest
 
-    - name: Deploy to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./app
-        publish_branch: gh-pages
-        cname: profile.mhl2.dev
-        commit_message: "Deploy to GitHub Pages"
-
+    # Since GitHub Pages is configured to use GitHub Actions,
+    # we don't need to manually deploy it with another action.
+    # The GitHub Pages will automatically deploy the app.
