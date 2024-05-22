@@ -350,7 +350,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+212 691626946",
-  email_address: "mustaphaliaihci@gmail.com"
+  email_address: "mustaphaliaichci@gmail.com"
 };
 
 // Twitter Section
