@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-app/static/css/main.5967c751.css",
-    "main.js": "/profile-app/static/js/main.16727b9c.js",
+    "main.js": "/profile-app/static/js/main.39d860be.js",
     "static/css/487.bb36206c.chunk.css": "/profile-app/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/profile-app/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/profile-app/static/css/990.c6a7ee28.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/docuMindsLogo.png": "/profile-app/static/media/docuMindsLogo.8e36f35929398570e39e.png",
     "static/media/Montserrat-Regular.ttf": "/profile-app/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/profile-app/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/IBMMachineLearningCertificate.png": "/profile-app/static/media/IBMMachineLearningCertificate.32f783acb10b77d62c8c.png",
     "static/media/projectManagementCertificate.png": "/profile-app/static/media/projectManagementCertificate.ca2467ede42c85ed1c13.png",
     "static/media/manOnTable.svg": "/profile-app/static/media/manOnTable.f861b03b5a2d1a28c1986a9155d85549.svg",
     "static/media/applied-data-science-lab.png": "/profile-app/static/media/applied-data-science-lab.21ed3bb6e9a845ba420c.png",
@@ -21,7 +22,7 @@
     "index.html": "/profile-app/index.html",
     "static/media/talksCardBack.svg": "/profile-app/static/media/talksCardBack.b7e63729a2580bdd4b07.svg",
     "main.5967c751.css.map": "/profile-app/static/css/main.5967c751.css.map",
-    "main.16727b9c.js.map": "/profile-app/static/js/main.16727b9c.js.map",
+    "main.39d860be.js.map": "/profile-app/static/js/main.39d860be.js.map",
     "487.bb36206c.chunk.css.map": "/profile-app/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/profile-app/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/profile-app/static/css/990.c6a7ee28.chunk.css.map",
@@ -29,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.5967c751.css",
-    "static/js/main.16727b9c.js"
+    "static/js/main.39d860be.js"
   ]
 }
