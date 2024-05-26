@@ -109,7 +109,7 @@ const educationInfo = {
       schoolName: "Ibn Tahir",
       logo: require("./assets/images/ibnTahirLogo.png"), // Replace with the actual path to your school's logo
       subHeader: "CPGE Student",
-      duration: "2018 – 2020",
+      duration: "2020 – 2022",
       desc: "Preparatory Classes’s degree - Mathematics and Physics", // You can customize this description
       descBullets: ["Located in Errachidia, Morocco"]
     },
@@ -117,7 +117,7 @@ const educationInfo = {
       schoolName: "School Of Information Science",
       logo: require("./assets/images/schoolOfInfoSciLogo.jpg"), // Replace with the actual path to your school's logo
       subHeader: "Data Science Student",
-      duration: "2020 – 2025",
+      duration: "2022 – 2025",
       desc: "Engineer’s degree - Data Science", // Customize this description as needed
       descBullets: ["Located in Rabat, Morocco"]
     }
@@ -266,7 +266,22 @@ const achievementSection = {
         }
         // You can add more links related to this achievement if available
       ]
-    }
+    },
+    {
+      title: "IBM Machine Learning Essentials",
+      subtitle:
+        "Successfully completed the IBM Machine Learning Essentials course, demonstrating an understanding of machine learning concepts and techniques.",
+      image: require("./assets/images/IBMMachineLearningCertificate.png"), // Replace with the path to your certificate image
+      imageAlt: "IBM Machine Learning Essentials Certificate",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://www.credly.com/org/ibm/badge/ibm-machine-learning-essentials" // Add link to your certificate if available online
+        }
+        // You can add more links related to this achievement if available
+      ]
+    },
+    
     // ... Include other achievements or certifications here
   ],
   display: true // Set true to display this section
@@ -350,7 +365,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+212 691626946",
-  email_address: "mustaphaliaichci@gmail.com"
+  email_address: "mustaphaliaichi@gmail.com"
 };
 
 // Twitter Section
