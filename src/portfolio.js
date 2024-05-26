@@ -26,7 +26,7 @@ const greeting = {
     "I'm a Data Science Enthusiast focusing on AI and Cloud Tech. I thrive on transforming complex data into smart solutions using my data science skills. Eager to bring these skills to life in the real world!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1aQzDFpYmC4dAIq8RUR7PRYKOUrWsddcu/view?usp=sharing", // Add a link to your online resume if available, create one if you don't have; ; ; ; ; ;
+    "https://drive.google.com/file/d/1fOQhI_OrKUyU3ISU3z0SWqvwHCL3rG4Z/view?usp=sharing", // Add a link to your online resume if available, create one if you don't have; ; ; ; ; ;
   displayGreeting: true
 };
 
