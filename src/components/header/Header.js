@@ -72,9 +72,9 @@ function Header() {
             </li>
           )}
           {/* {viewResume && (
-            // <li>
-            //   <a href="#resume">Resume</a>
-            // </li>
+            <li>
+              <a href="#resume">Resume</a>
+            </li>
           )} */}
           <li>
             <a href="#contact">Contact Me</a>
