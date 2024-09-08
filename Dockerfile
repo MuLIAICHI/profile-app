@@ -1,29 +1,26 @@
-# This file is the main docker file configurations
-
 # Use a more recent LTS version of Node.js
 FROM node:16-alpine
 
-# Set the working directory to ./app
+# Set the working directory to /app
 WORKDIR /app
 
-# Install app dependencies
-# A wildcard is used to ensure both package.json AND package-lock.json are copied
-# where available (npm@5+)
+# Copy package.json and package-lock.json
 COPY package*.json ./
 
-RUN apk add --no-cache git
-
-# Install any needed packages
+# Install app dependencies
 RUN npm install
 
-# Audit fix npm packages
-#RUN npm audit fix
+# Copy all files
+COPY . .
 
-# Bundle app source
-COPY . /app
+# Build the React app
+RUN npm run build
 
-# Make port 3000 available to the world outside this container
+# Install a simple web server to serve the build artifacts
+RUN npm install -g serve
+
+# Expose port 3000
 EXPOSE 3000
 
-# Run app.js when the container launches
-CMD ["npm", "start"]
+# Command to run the app
+CMD ["serve", "-s", "build"]

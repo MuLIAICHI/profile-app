@@ -23,7 +23,7 @@ const greeting = {
   username: "ML99",
   title: "Hi all, I'm Mustapha",
   subTitle: emoji(
-    "I'm a Data Science Enthusiast focusing on AI and Cloud Tech. I thrive on transforming complex data into smart solutions using my data science skills. Eager to bring these skills to life in the real world!"
+    "Passionate third-year data science student specializing in AI, machine learning, and natural language processing. Experienced in developing end-to-end solutions from data preprocessing to model deployment. Eager to apply and expand my skills in AI-driven automation, predictive analytics, and NLP applications in a dynamic team environment."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1fOQhI_OrKUyU3ISU3z0SWqvwHCL3rG4Z/view?usp=sharing", // Add a link to your online resume if available, create one if you don't have; ; ; ; ; ;
@@ -46,20 +46,27 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "PASSIONATE DATA SCIENCE STUDENT | EXPLORING AI & MACHINE LEARNING",
+  subTitle: "PASSIONATE DATA SCIENCE STUDENT EXPLORING AI & MACHINE LEARNING",
   skills: [
     emoji(
-      "⚡ Developing skills in building and optimizing data pipelines and working with complex datasets."
+      "⚡ Develop end-to-end machine learning solutions from data preprocessing to model deployment"
     ),
     emoji(
-      "⚡ Strong interest in analyzing and interpreting unstructured datasets."
+      "⚡ Implement natural language processing techniques for text analysis and chatbot development"
     ),
     emoji(
-      "⚡ Gaining practical experience with web data extraction using tools like Selenium and Scrapy."
+      "⚡ Create data visualizations and interactive dashboards using Python libraries"
+    ),
+    emoji(
+      "⚡ Design and implement efficient data pipelines and ETL processes"
     )
   ],
 
   softwareSkills: [
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
@@ -69,32 +76,28 @@ const skillsSection = {
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "scrapy",
-      fontAwesomeClassname: "fas fa-spider" // Note: Custom icon for Scrapy as it might not have a specific FontAwesome icon
-    },
-    {
       skillName: "azure",
       fontAwesomeClassname: "fab fa-microsoft"
     },
     {
+      skillName: "tensorflow",
+      fontAwesomeClassname: "fas fa-brain"
+    },
+    {
       skillName: "pandas",
-      fontAwesomeClassname: "fas fa-table" // Generic icon for data tables, as Pandas does not have a specific icon
+      fontAwesomeClassname: "fas fa-table"
     },
     {
       skillName: "numpy",
-      fontAwesomeClassname: "fas fa-calculator" // Generic icon, representing numerical computation
+      fontAwesomeClassname: "fas fa-calculator"
     },
     {
       skillName: "plotly",
-      fontAwesomeClassname: "fas fa-chart-line" // Represents plotting capabilities
+      fontAwesomeClassname: "fas fa-chart-line"
     },
     {
-      skillName: "tensorflow",
-      fontAwesomeClassname: "fas fa-brain" // Represents AI/Neural Network capabilities
+      skillName: "scrapy",
+      fontAwesomeClassname: "fas fa-spider"
     }
   ],
   display: true
@@ -151,19 +154,6 @@ const workExperiences = {
   display: true, // Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Python Programmer & Web Scraping",
-      company: "Freelancer.com",
-      companylogo: require("./assets/images/freelancerLogo.png"), // Replace with the actual path to Freelancer.com's logo
-      date: "2021 – Present",
-      desc: "Specializing in web scraping, automation, and machine learning. Expert in extracting and transforming data, API development, and building automation solutions.",
-      descBullets: [
-        "Web scraping using Scrapy and BeautifulSoup to extract data from websites and PDFs.",
-        "Automation using Selenium and Seleniumbase frameworks for web applications.",
-        "Proficiency in OpenCV for computer vision tasks and bot development for Telegram/Discord.",
-        "Transforming data into JSON, CSV, or Excel formats for seamless integration."
-      ]
-    },
-    {
       role: "Python Programmer & Automation",
       company: "PeoplePerHour",
       companylogo: require("./assets/images/peoplePerHourLogo.png"), // Replace with the actual path to PeoplePerHour's logo
@@ -200,36 +190,54 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "Highlighting Major Projects and Contributions",
+  subtitle: "SHOWCASING MY MAJOR DATA SCIENCE AND AI PROJECTS",
   projects: [
     {
-      image: require("./assets/images/docuMindsLogo.png"), // Replace with the path to your DocuMinds project's logo
-      projectName: "DocuMinds - File Embedding App",
-      projectDesc:
-        "DocuMinds is a Streamlit-based web application for processing and analyzing text documents. It enables users to upload documents, input prompts, and receive insightful responses. Features include document upload, embeddings storage in AWS S3, and generating responses based on user prompts.",
+      image: require("./assets/images/aiInternshipEvalLogo.png"),
+      projectName: "AI-Powered Internship Evaluation System",
+      projectDesc: "Developed a multi-agent system using GPT-4 and Groq's Mixtral 8x7B for automated internship evaluations. Implemented with CrewAI and LangChain for efficient LLM interactions.",
       footerLink: [
         {
-          name: "View Project", // Change this if you have a different call to action
-          url: "https://github.com/MuLIAICHI/DocuMinds" // Add the URL of your DocuMinds project if it's deployed
+          name: "View Project",
+          url: "https://github.com/YourUsername/AIInternshipEval"
         }
-        // Add more buttons if needed
       ]
     },
     {
-      image: require("./assets/images/schoolTextAnalysisLogo.png"), // Replace with the path to your School Text Analysis project's logo
-      projectName: "School Text Analysis using Word Cloud",
-      projectDesc:
-        "This project focuses on analyzing text from various schools using word cloud visualization. It involves data collection, processing, keyword extraction using nlp_rake, and visualizing the most frequent terms with word clouds and bar plots. The project is collaborative, inviting contributions for analyzing different schools.",
+      image: require("./assets/images/eregEsiLogo.png"),
+      projectName: "EREG-ESI Chatbot",
+      projectDesc: "Built an intelligent chatbot for HDR and MAA regulations using advanced NLP techniques and FAISS for vector storage. Implemented with Streamlit for a user-friendly interface.",
       footerLink: [
         {
-          name: "View Project", // Change this if you have a different call to action
-          url: "https://github.com/MuLIAICHI/HighSchoolEngMorocco-WC" // Add the URL of your School Text Analysis project if available
+          name: "View Project",
+          url: "https://github.com/YourUsername/EREG-ESI"
         }
-        // Add more buttons if needed
+      ]
+    },
+    {
+      image: require("./assets/images/spamClassifierLogo.png"),
+      projectName: "SpamClassifierAPI",
+      projectDesc: "Developed an end-to-end ML pipeline for email classification, including model training, hyperparameter tuning, and API deployment using FastAPI.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/YourUsername/SpamClassifierAPI"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/schoolTextAnalysisLogo.png"),
+      projectName: "School Text Analysis using Word Cloud",
+      projectDesc: "Created a text analysis tool for visualizing key terms from school websites. Implemented web scraping, text processing, and visualization techniques with a Streamlit app interface.",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://github.com/MuLIAICHI/HighSchoolEngMorocco-WC"
+        }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
 // Achievement Section
