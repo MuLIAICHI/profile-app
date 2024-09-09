@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-app/static/css/main.5967c751.css",
-    "main.js": "/profile-app/static/js/main.6af28a54.js",
+    "main.js": "/profile-app/static/js/main.e552b7cb.js",
     "static/css/487.bb36206c.chunk.css": "/profile-app/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/profile-app/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/profile-app/static/css/990.c6a7ee28.chunk.css",
@@ -13,8 +13,8 @@
     "static/media/eregEsiLogo.png": "/profile-app/static/media/eregEsiLogo.f9b72c30ede3278c31bd.png",
     "static/media/resume.pdf": "/profile-app/static/media/resume.0e04852870446ce72e36.pdf",
     "static/media/Agustina.woff": "/profile-app/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/IBMMLSpecialistCertificate.png": "/profile-app/static/media/IBMMLSpecialistCertificate.085e604e40571b971b8b.png",
     "static/media/IBMMachineLearningCertificate.png": "/profile-app/static/media/IBMMachineLearningCertificate.32f783acb10b77d62c8c.png",
-    "static/media/projectManagementCertificate.png": "/profile-app/static/media/projectManagementCertificate.ca2467ede42c85ed1c13.png",
     "static/media/manOnTable.svg": "/profile-app/static/media/manOnTable.f861b03b5a2d1a28c1986a9155d85549.svg",
     "static/media/applied-data-science-lab.png": "/profile-app/static/media/applied-data-science-lab.21ed3bb6e9a845ba420c.png",
     "static/media/contactMailDark.svg": "/profile-app/static/media/contactMailDark.d15cfd18439fe05fe75d13985e018781.svg",
@@ -24,7 +24,7 @@
     "index.html": "/profile-app/index.html",
     "static/media/talksCardBack.svg": "/profile-app/static/media/talksCardBack.b7e63729a2580bdd4b07.svg",
     "main.5967c751.css.map": "/profile-app/static/css/main.5967c751.css.map",
-    "main.6af28a54.js.map": "/profile-app/static/js/main.6af28a54.js.map",
+    "main.e552b7cb.js.map": "/profile-app/static/js/main.e552b7cb.js.map",
     "487.bb36206c.chunk.css.map": "/profile-app/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/profile-app/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/profile-app/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.5967c751.css",
-    "static/js/main.6af28a54.js"
+    "static/js/main.e552b7cb.js"
   ]
 }
