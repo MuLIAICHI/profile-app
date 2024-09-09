@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-app/static/css/main.5967c751.css",
-    "main.js": "/profile-app/static/js/main.6fe9e0e1.js",
+    "main.js": "/profile-app/static/js/main.22d0d23e.js",
     "static/css/487.bb36206c.chunk.css": "/profile-app/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/profile-app/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/profile-app/static/css/990.c6a7ee28.chunk.css",
@@ -10,6 +10,7 @@
     "static/media/aiInternshipEvalLogo.png": "/profile-app/static/media/aiInternshipEvalLogo.79e4d360f0065358e01d.png",
     "static/media/spamClassifierLogo.png": "/profile-app/static/media/spamClassifierLogo.2e07ffe80888c5faa5d6.png",
     "static/media/Montserrat-Regular.ttf": "/profile-app/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/diezAgencyLogo.png": "/profile-app/static/media/diezAgencyLogo.1592cfde0c83cf1c8e76.png",
     "static/media/eregEsiLogo.png": "/profile-app/static/media/eregEsiLogo.f9b72c30ede3278c31bd.png",
     "static/media/resume.pdf": "/profile-app/static/media/resume.0e04852870446ce72e36.pdf",
     "static/media/Agustina.woff": "/profile-app/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -24,7 +25,7 @@
     "index.html": "/profile-app/index.html",
     "static/media/talksCardBack.svg": "/profile-app/static/media/talksCardBack.b7e63729a2580bdd4b07.svg",
     "main.5967c751.css.map": "/profile-app/static/css/main.5967c751.css.map",
-    "main.6fe9e0e1.js.map": "/profile-app/static/js/main.6fe9e0e1.js.map",
+    "main.22d0d23e.js.map": "/profile-app/static/js/main.22d0d23e.js.map",
     "487.bb36206c.chunk.css.map": "/profile-app/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/profile-app/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/profile-app/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +33,6 @@
   },
   "entrypoints": [
     "static/css/main.5967c751.css",
-    "static/js/main.6fe9e0e1.js"
+    "static/js/main.22d0d23e.js"
   ]
 }
