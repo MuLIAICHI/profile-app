@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/profile-app/static/css/main.5967c751.css",
-    "main.js": "/profile-app/static/js/main.26d08b6a.js",
+    "main.js": "/profile-app/static/js/main.19cef13f.js",
     "static/css/487.bb36206c.chunk.css": "/profile-app/static/css/487.bb36206c.chunk.css",
     "static/js/487.7ae187c0.chunk.js": "/profile-app/static/js/487.7ae187c0.chunk.js",
     "static/css/990.c6a7ee28.chunk.css": "/profile-app/static/css/990.c6a7ee28.chunk.css",
@@ -11,7 +11,7 @@
     "static/media/Montserrat-Regular.ttf": "/profile-app/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/diezAgencyLogo.png": "/profile-app/static/media/diezAgencyLogo.1592cfde0c83cf1c8e76.png",
     "static/media/eregEsiLogo.png": "/profile-app/static/media/eregEsiLogo.f9b72c30ede3278c31bd.png",
-    "static/media/LIAICHI_MUSTAPHA_cv.pdf": "/profile-app/static/media/LIAICHI_MUSTAPHA_cv.1651b126c19f4a4bfa9e.pdf",
+    "static/media/LIAICHI_MUSTAPHA_cv.pdf": "/profile-app/static/media/LIAICHI_MUSTAPHA_cv.779a709708aab8e704a0.pdf",
     "static/media/Agustina.woff": "/profile-app/static/media/Agustina.eb0c59dda4cc308cba96.woff",
     "static/media/IBMMLSpecialistCertificate.png": "/profile-app/static/media/IBMMLSpecialistCertificate.085e604e40571b971b8b.png",
     "static/media/IBMMachineLearningCertificate.png": "/profile-app/static/media/IBMMachineLearningCertificate.32f783acb10b77d62c8c.png",
@@ -24,7 +24,7 @@
     "index.html": "/profile-app/index.html",
     "static/media/talksCardBack.svg": "/profile-app/static/media/talksCardBack.b7e63729a2580bdd4b07.svg",
     "main.5967c751.css.map": "/profile-app/static/css/main.5967c751.css.map",
-    "main.26d08b6a.js.map": "/profile-app/static/js/main.26d08b6a.js.map",
+    "main.19cef13f.js.map": "/profile-app/static/js/main.19cef13f.js.map",
     "487.bb36206c.chunk.css.map": "/profile-app/static/css/487.bb36206c.chunk.css.map",
     "487.7ae187c0.chunk.js.map": "/profile-app/static/js/487.7ae187c0.chunk.js.map",
     "990.c6a7ee28.chunk.css.map": "/profile-app/static/css/990.c6a7ee28.chunk.css.map",
@@ -32,6 +32,6 @@
   },
   "entrypoints": [
     "static/css/main.5967c751.css",
-    "static/js/main.26d08b6a.js"
+    "static/js/main.19cef13f.js"
   ]
 }
